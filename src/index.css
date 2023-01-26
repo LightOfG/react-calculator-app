@@ -1,13 +1,102 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ background-color: aqua;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .heading{
+  margin: 4px;
+
+ align-items: center;
+ justify-content: center;
+} */
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  
+}
+
+.calculator{
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 600px;
+
+  background-color: #fff;
+}
+
+.display{
+  text-align: center;
+  background-color: darkslategray;
+  margin: 16px;
+  
+  border-radius: 10px;
+  height: 80px;
+
+}
+
+
+
+.allButtons{
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  padding: 2px;
+ height: 80px;
+}
+
+input{
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 18px;
+  font-size: medium;
+}
+
+.result{
+  color: #fff;
+  font-size: auto;
+}
+
+.reset{
+  background-color: rgba(255, 238, 0, 0.685);
+  padding: 4px;
+  margin: 20px;
+  border-radius: 8px;
+  min-width: 0%;
+  border-color: aqua;
+  border-color:  rgba(0, 0, 0, 0.2);
+}
+.reset:hover{
+  transition: 0.5s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn{
+  padding: 8px;
+  border-radius: 8px;
+  border-color: aqua;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin : 4px;
+  
+}
+.btn:hover{
+  transition: 0.5s ease-in-out;
+  background: #4F95DA;
+}
+
+
+
+
